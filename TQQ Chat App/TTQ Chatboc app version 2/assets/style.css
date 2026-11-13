@@ -1,0 +1,621 @@
+/* =====================================================================
+   TQQ Chatbox - "Quintessence" theme
+   One stylesheet for the whole app. The app reads it at start-up, so
+   edit + restart is enough (no rebuild).
+
+   Per-sister colours come from Java (Ui.accentVars):
+     -accent        her colour
+     -accent-soft   14% of it   (fills)
+     -accent-glow   38% of it   (glows, washes)
+     -accent-line   55% of it   (borders)
+     -accent-deep   dark version (gradients)
+
+   Fonts (all built into Windows):
+     Bodoni MT           names / big headings
+     Bahnschrift         numbers, labels
+     Yu Gothic UI Light  kanji
+     Segoe UI            text
+     Segoe Fluent Icons  icons
+   ===================================================================== */
+
+.root {
+    -ink:       #0b0b10;
+    -ink-2:     #111118;
+    -ink-3:     #181822;
+    -glass:     rgba(255, 255, 255, 0.045);
+    -glass-2:   rgba(255, 255, 255, 0.075);
+    -hair:      rgba(255, 255, 255, 0.08);
+    -hair-2:    rgba(255, 255, 255, 0.14);
+    -text:      #f1eff8;
+    -muted:     #9d9bb2;
+    -faint:     #66657c;
+    -ok:        #5ee39a;
+    -busy:      #ffc857;
+    -bad:       #ff6b7a;
+    -accent:      #b9a6ff;
+    -accent-soft: rgba(185, 166, 255, 0.14);
+    -accent-glow: rgba(185, 166, 255, 0.38);
+    -accent-line: rgba(185, 166, 255, 0.55);
+    -accent-deep: #3b2f66;
+
+    -fx-background-color: -ink;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.label { -fx-text-fill: -text; }
+.icon  { -fx-font-family: "Segoe Fluent Icons"; -fx-font-size: 14px; -fx-text-fill: inherit; }
+
+.text-error { -fx-text-fill: -bad; }
+
+/* ================================================================ shared bits */
+
+.glass-pill {
+    -fx-background-color: rgba(11, 11, 16, 0.55);
+    -fx-border-color: -hair;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-padding: 6px 14px;
+}
+.dot        { -fx-fill: -faint; }
+.dot-ok     { -fx-fill: -ok; }
+.dot-busy   { -fx-fill: -busy; }
+.dot-error  { -fx-fill: -bad; }
+.dot-accent { -fx-fill: -accent; }
+
+.icon-btn {
+    -fx-background-color: -glass;
+    -fx-border-color: -hair;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-min-width: 36px;
+    -fx-min-height: 36px;
+    -fx-max-width: 36px;
+    -fx-max-height: 36px;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-text-fill: -muted;
+}
+.icon-btn:hover {
+    -fx-background-color: -accent-soft;
+    -fx-border-color: -accent-line;
+    -fx-text-fill: -accent;
+}
+
+.toast {
+    -fx-background-color: rgba(11, 11, 16, 0.88);
+    -fx-border-color: -accent-line;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-padding: 8px 18px;
+    -fx-text-fill: -text;
+    -fx-font-size: 12.5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 24, 0.2, 0, 8);
+}
+
+.tooltip {
+    -fx-background-color: #1d1d28;
+    -fx-text-fill: -text;
+    -fx-background-radius: 8px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 12px;
+}
+
+/* ================================================================ HOME */
+
+.home { -fx-background-color: -ink; }
+
+.logo {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+.logo-sub {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-style: italic;
+    -fx-font-size: 15px;
+    -fx-text-fill: rgba(255, 255, 255, 0.7);
+}
+.home-status-text { -fx-text-fill: -text; -fx-font-size: 12px; }
+.home-hint {
+    -fx-text-fill: rgba(255, 255, 255, 0.45);
+    -fx-font-family: "Bahnschrift";
+    -fx-font-size: 12px;
+}
+
+.panel { -fx-cursor: hand; -fx-background-color: -accent-deep; }
+.panel-shade {
+    -fx-background-color:
+        linear-gradient(to bottom, rgba(11,11,16,0.55) 0%, rgba(11,11,16,0.0) 22%, rgba(11,11,16,0.0) 45%, rgba(11,11,16,0.92) 82%, #0b0b10 100%);
+}
+.panel-wash {
+    -fx-background-color:
+        linear-gradient(to top, -accent-glow 0%, transparent 58%),
+        linear-gradient(to bottom, transparent 70%, -accent-soft 100%);
+}
+.panel-kanji {
+    -fx-font-family: "Yu Gothic UI Light";
+    -fx-font-size: 70px;
+    -fx-text-fill: white;
+    -fx-line-spacing: -14px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.45), 20, 0.1, 0, 2);
+}
+.panel-num {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: -accent;
+}
+.panel-bar {
+    -fx-background-color: -accent;
+    -fx-min-height: 3px; -fx-max-height: 3px;
+    -fx-min-width: 34px; -fx-max-width: 34px;
+    -fx-background-radius: 2px;
+}
+.panel-name {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 54px;
+    -fx-text-fill: white;
+    -fx-padding: 2px 0 0 0;
+}
+.panel-tag   { -fx-text-fill: rgba(255, 255, 255, 0.78); -fx-font-size: 13px; }
+.panel-model { -fx-text-fill: rgba(255, 255, 255, 0.42); -fx-font-family: "Bahnschrift"; -fx-font-size: 11px; }
+.panel-quote {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-style: italic;
+    -fx-font-size: 19px;
+    -fx-text-fill: white;
+    -fx-line-spacing: 2px;
+}
+.panel-talk {
+    -fx-background-color: -accent;
+    -fx-text-fill: #0b0b10;
+    -fx-font-family: "Bahnschrift";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 999px;
+    -fx-padding: 9px 20px;
+    -fx-effect: dropshadow(gaussian, -accent-glow, 22, 0.3, 0, 0);
+}
+
+/* ================================================================ CHAT: frame */
+
+.chat-view { -fx-background-color: -ink; }
+.chat-veil {
+    -fx-background-color:
+        radial-gradient(center 78% 0%, radius 75%, -accent-soft 0%, transparent 100%),
+        linear-gradient(to bottom, rgba(11,11,16,0.55) 0%, rgba(11,11,16,0.78) 100%);
+}
+
+/* ---- rail (far left) */
+.rail {
+    -fx-background-color: rgba(8, 8, 12, 0.72);
+    -fx-border-color: transparent -hair transparent transparent;
+    -fx-pref-width: 78px;
+    -fx-min-width: 78px;
+    -fx-padding: 18px 0 18px 0;
+}
+.rail-home { }
+.rail-div {
+    -fx-background-color: -hair-2;
+    -fx-min-height: 1px; -fx-max-height: 1px;
+    -fx-min-width: 30px; -fx-max-width: 30px;
+}
+.rail-sis {
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-insets: -4px;
+    -fx-background-insets: -4px;
+}
+.rail-sis:hover { -fx-opacity: 0.95; -fx-border-color: -accent-line; }
+.rail-sis-active {
+    -fx-opacity: 1;
+    -fx-border-color: -accent;
+    -fx-effect: dropshadow(gaussian, -accent-glow, 18, 0.35, 0, 0);
+}
+.rail-num   { -fx-font-family: "Bahnschrift"; -fx-font-size: 10px; -fx-text-fill: -faint; }
+.rail-brand {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: -faint;
+    -fx-rotate: -90;
+}
+
+/* ---- drawer (thread list) */
+.drawer {
+    -fx-background-color: rgba(14, 14, 20, 0.62);
+    -fx-border-color: transparent -hair transparent transparent;
+    -fx-pref-width: 268px;
+    -fx-min-width: 268px;
+    -fx-max-width: 268px;
+    -fx-padding: 22px 14px 16px 14px;
+}
+.drawer-title {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+.drawer-count {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-size: 12px;
+    -fx-text-fill: -accent;
+    -fx-background-color: -accent-soft;
+    -fx-background-radius: 999px;
+    -fx-padding: 1px 8px;
+}
+.new-chat {
+    -fx-background-color: -accent;
+    -fx-text-fill: #0b0b10;
+    -fx-font-family: "Bahnschrift";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 12px;
+    -fx-padding: 10px 14px;
+    -fx-cursor: hand;
+    -fx-graphic-text-gap: 10px;
+    -fx-effect: dropshadow(gaussian, -accent-glow, 16, 0.15, 0, 4);
+}
+.new-chat:hover { -fx-background-color: derive(-accent, 15%); }
+.new-chat .icon { -fx-text-fill: #0b0b10; -fx-font-size: 12px; }
+
+.thread-card {
+    -fx-background-color: transparent;
+    -fx-background-radius: 12px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0 3px;
+    -fx-border-radius: 2px;
+    -fx-padding: 10px 12px;
+    -fx-cursor: hand;
+}
+.thread-card:hover { -fx-background-color: -glass; }
+.thread-card-active {
+    -fx-background-color: -accent-soft;
+    -fx-border-color: -accent;
+}
+.thread-card-active:hover { -fx-background-color: -accent-soft; }
+.thread-title   { -fx-font-size: 13px; -fx-text-fill: rgba(255,255,255,0.85); }
+.thread-card-active .thread-title { -fx-text-fill: white; -fx-font-weight: bold; }
+.thread-when    { -fx-font-family: "Bahnschrift"; -fx-font-size: 10.5px; -fx-text-fill: -faint; }
+.thread-preview { -fx-font-size: 11.5px; -fx-text-fill: -faint; }
+
+.mini {
+    -fx-background-color: -glass;
+    -fx-border-color: -hair;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: -muted;
+    -fx-font-size: 11.5px;
+    -fx-padding: 7px 8px;
+    -fx-cursor: hand;
+    -fx-graphic-text-gap: 6px;
+}
+.mini .icon { -fx-font-size: 11px; }
+.mini:hover { -fx-background-color: -glass-2; -fx-text-fill: -text; }
+.mini-danger:hover { -fx-text-fill: -bad; -fx-border-color: rgba(255, 107, 122, 0.45); }
+
+/* ---- centre */
+.topbar {
+    -fx-padding: 18px 26px 14px 26px;
+    -fx-border-color: transparent transparent -hair transparent;
+}
+.thread-heading {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+.thread-sub { -fx-text-fill: -muted; -fx-font-size: 11.5px; }
+.model-text { -fx-font-family: "Bahnschrift"; -fx-font-size: 11.5px; -fx-text-fill: -muted; }
+
+.toggle {
+    -fx-background-color: -glass;
+    -fx-border-color: -hair;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-text-fill: -muted;
+    -fx-font-family: "Bahnschrift";
+    -fx-font-size: 12px;
+    -fx-padding: 8px 14px;
+    -fx-cursor: hand;
+}
+.toggle:hover { -fx-background-color: -glass-2; }
+.toggle-on {
+    -fx-background-color: -accent-soft;
+    -fx-border-color: -accent-line;
+    -fx-text-fill: -accent;
+}
+.toggle-on:hover { -fx-background-color: -accent-soft; }
+
+.watermark {
+    -fx-font-family: "Yu Gothic UI Light";
+    -fx-font-size: 230px;
+    -fx-line-spacing: -60px;
+    -fx-text-fill: white;
+    -fx-opacity: 0.035;
+}
+
+.column   { -fx-padding: 26px 30px 18px 30px; }
+.messages { }
+
+/* her message: line 1 action, line 2 words */
+.her-name { -fx-font-family: "Bahnschrift"; -fx-font-weight: bold; -fx-font-size: 12px; -fx-text-fill: -accent; }
+.msg-time { -fx-font-family: "Bahnschrift"; -fx-font-size: 10.5px; -fx-text-fill: -faint; }
+.her-card {
+    -fx-background-color: rgba(20, 20, 28, 0.72);
+    -fx-border-color: -hair transparent -hair -accent;
+    -fx-border-width: 1px 1px 1px 3px;
+    -fx-background-radius: 4px 20px 20px 20px;
+    -fx-border-radius: 4px 20px 20px 20px;
+    -fx-padding: 13px 18px 14px 18px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 18, 0.1, 0, 6);
+}
+.action {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-style: italic;
+    -fx-font-size: 15.5px;
+    -fx-text-fill: derive(-accent, 30%);
+    -fx-line-spacing: 1px;
+}
+.action-pending { -fx-opacity: 0.4; }
+.her-text { -fx-font-size: 15px; -fx-text-fill: white; -fx-line-spacing: 3px; }
+
+/* your message */
+.my-card {
+    -fx-background-color: linear-gradient(to bottom right, -accent, derive(-accent, -28%));
+    -fx-background-radius: 20px 20px 4px 20px;
+    -fx-padding: 11px 17px;
+    -fx-effect: dropshadow(gaussian, -accent-glow, 20, 0.12, 0, 6);
+}
+.my-text { -fx-font-size: 14.5px; -fx-text-fill: #0b0b10; -fx-line-spacing: 2px; }
+.card-error { -fx-background-color: rgba(70, 18, 28, 0.85); -fx-border-color: -hair transparent -hair -bad; }
+
+.typing { -fx-padding: 6px 2px; }
+.typing-dot { -fx-fill: -accent; }
+
+.starters { }
+.starter {
+    -fx-background-color: -glass;
+    -fx-border-color: -accent-line;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-text-fill: -accent;
+    -fx-font-size: 12.5px;
+    -fx-padding: 7px 14px;
+    -fx-cursor: hand;
+}
+.starter:hover { -fx-background-color: -accent-soft; }
+
+/* composer */
+.composer-wrap { -fx-padding: 6px 30px 18px 30px; }
+.composer {
+    -fx-background-color: rgba(20, 20, 28, 0.82);
+    -fx-border-color: -hair-2;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-padding: 6px 6px 6px 22px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 26, 0.15, 0, 8);
+}
+.composer-focus {
+    -fx-border-color: -accent-line;
+    -fx-effect: dropshadow(gaussian, -accent-glow, 26, 0.18, 0, 0);
+}
+.composer-input {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: -faint;
+    -fx-font-size: 15px;
+    -fx-padding: 8px 0;
+}
+.send {
+    -fx-background-color: -accent;
+    -fx-background-radius: 999px;
+    -fx-min-width: 44px; -fx-min-height: 44px;
+    -fx-max-width: 44px; -fx-max-height: 44px;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-text-fill: #0b0b10;
+}
+.send .icon { -fx-font-size: 15px; -fx-text-fill: #0b0b10; }
+.send:hover { -fx-background-color: derive(-accent, 18%); }
+.send:disabled { -fx-opacity: 0.35; }
+.send-stop { -fx-background-color: -bad; }
+.send-stop:hover { -fx-background-color: derive(-bad, 15%); }
+.composer-hint { -fx-font-size: 11px; -fx-text-fill: -faint; }
+
+/* ---- stage (right portrait) */
+.stage {
+    -fx-pref-width: 340px;
+    -fx-min-width: 340px;
+    -fx-max-width: 340px;
+    -fx-background-color: -accent-deep;
+}
+.stage-fade {
+    -fx-background-color:
+        linear-gradient(to right, rgba(11,11,16,0.95) 0%, rgba(11,11,16,0.0) 28%),
+        linear-gradient(to bottom, rgba(11,11,16,0.0) 40%, rgba(11,11,16,0.85) 78%, #0b0b10 100%),
+        linear-gradient(to top, -accent-glow 0%, transparent 45%);
+}
+.stage-num   { -fx-font-family: "Bahnschrift"; -fx-font-weight: bold; -fx-font-size: 16px; -fx-text-fill: -accent; }
+.stage-kanji { -fx-font-family: "Yu Gothic UI Light"; -fx-font-size: 22px; -fx-text-fill: rgba(255,255,255,0.8); }
+.stage-name  { -fx-font-family: "Bodoni MT"; -fx-font-size: 58px; -fx-text-fill: white; }
+.stage-tag   { -fx-text-fill: rgba(255,255,255,0.75); -fx-font-size: 13px; }
+.stage-status {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-style: italic;
+    -fx-font-size: 15px;
+    -fx-text-fill: -accent;
+}
+
+/* ================================================================ history overlay */
+
+.hist-overlay { -fx-background-color: rgba(8, 8, 12, 0.72); -fx-padding: 46px 40px; }
+.hist-sheet {
+    -fx-background-color: rgba(17, 17, 24, 0.96);
+    -fx-border-color: -hair-2;
+    -fx-background-radius: 24px;
+    -fx-border-radius: 24px;
+    -fx-padding: 26px 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 50, 0.2, 0, 18);
+}
+.hist-title { -fx-font-family: "Bodoni MT"; -fx-font-size: 34px; -fx-text-fill: white; }
+.hist-search-box {
+    -fx-background-color: -glass;
+    -fx-border-color: -accent-line;
+    -fx-background-radius: 14px;
+    -fx-border-radius: 14px;
+    -fx-padding: 4px 16px;
+    -fx-text-fill: -accent;
+}
+.hist-search {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: -faint;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 0;
+}
+.hist-count { -fx-font-family: "Bahnschrift"; -fx-text-fill: -muted; -fx-font-size: 12px; }
+.hist-card {
+    -fx-background-color: -glass;
+    -fx-border-color: -hair;
+    -fx-background-radius: 16px;
+    -fx-border-radius: 16px;
+    -fx-padding: 16px 18px;
+    -fx-cursor: hand;
+}
+.hist-card:hover { -fx-border-color: -accent-line; -fx-background-color: -accent-soft; }
+.hist-thread-title { -fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: white; }
+.hist-thread-when  { -fx-font-family: "Bahnschrift"; -fx-font-size: 11px; -fx-text-fill: -faint; }
+.hist-open { -fx-font-family: "Bahnschrift"; -fx-font-size: 12px; -fx-text-fill: -accent; }
+.hist-who-her { -fx-font-family: "Bahnschrift"; -fx-font-weight: bold; -fx-font-size: 11.5px; -fx-text-fill: -accent; }
+.hist-who-me  { -fx-font-family: "Bahnschrift"; -fx-font-weight: bold; -fx-font-size: 11.5px; -fx-text-fill: -muted; }
+.hist-action  { -fx-font-family: "Bodoni MT"; -fx-font-style: italic; -fx-font-size: 13.5px; -fx-text-fill: derive(-accent, 30%); }
+.hist-text    { -fx-font-size: 13px; -fx-text-fill: rgba(255,255,255,0.88); }
+.hist-empty   { -fx-text-fill: -muted; -fx-font-family: "Bodoni MT"; -fx-font-style: italic; -fx-font-size: 18px; -fx-padding: 40px 0; }
+
+/* ================================================================ avatars */
+
+.avatar-fallback {
+    -fx-background-color: linear-gradient(to bottom right, -accent, -accent-deep);
+    -fx-background-radius: 999px;
+}
+.avatar-kanji { -fx-font-family: "Yu Gothic UI"; -fx-text-fill: white; }
+
+/* ================================================================ scroll bars */
+
+.clear-scroll, .clear-scroll > .viewport { -fx-background-color: transparent; -fx-background-insets: 0; }
+.clear-scroll { -fx-padding: 0; }
+.scroll-bar:vertical, .scroll-bar:horizontal { -fx-background-color: transparent; -fx-padding: 3px; }
+.scroll-bar .thumb { -fx-background-color: rgba(255, 255, 255, 0.10); -fx-background-radius: 6px; }
+.scroll-bar .thumb:hover { -fx-background-color: -accent-line; }
+.scroll-bar .track, .scroll-bar .track-background { -fx-background-color: transparent; }
+.scroll-bar .increment-button, .scroll-bar .decrement-button { -fx-padding: 0; -fx-background-color: transparent; }
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow { -fx-shape: " "; -fx-padding: 0; }
+.corner { -fx-background-color: transparent; }
+
+/* ================================================================ dialogs */
+
+.tqq-dialog { -fx-background-color: #14141c; -fx-padding: 6px; }
+.tqq-dialog .content.label, .tqq-dialog .label { -fx-text-fill: -text; -fx-font-size: 13.5px; }
+.tqq-dialog .header-panel { -fx-background-color: -ink-3; }
+.tqq-dialog .text-field {
+    -fx-background-color: -ink-3;
+    -fx-text-fill: -text;
+    -fx-border-color: -accent-line;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 8px 10px;
+}
+.tqq-dialog .button-bar { -fx-padding: 6px 0 0 0; }
+.tqq-dialog .button {
+    -fx-background-color: -glass-2;
+    -fx-text-fill: -text;
+    -fx-background-radius: 999px;
+    -fx-padding: 7px 18px;
+    -fx-cursor: hand;
+}
+.tqq-dialog .button:default {
+    -fx-background-color: -accent;
+    -fx-text-fill: #0b0b10;
+    -fx-font-weight: bold;
+}
+
+/* small kanji next to the number on the home panels */
+.panel-kanji-small {
+    -fx-font-family: "Yu Gothic UI";
+    -fx-font-size: 15px;
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+}
+
+/* ================================================================ timeline + character */
+
+.context-chip {
+    -fx-background-color: -accent-soft;
+    -fx-border-color: -accent-line;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-text-fill: -accent;
+    -fx-font-family: "Bahnschrift";
+    -fx-font-size: 12px;
+    -fx-padding: 8px 14px;
+    -fx-cursor: hand;
+}
+.context-chip:hover { -fx-background-color: -accent-glow; -fx-text-fill: white; }
+.thread-ctx { -fx-font-family: "Bahnschrift"; -fx-font-size: 10.5px; -fx-text-fill: -accent; -fx-opacity: 0.8; }
+.starter-setup { -fx-background-color: -accent-soft; -fx-font-family: "Bahnschrift"; }
+
+.setup-sub   { -fx-text-fill: -muted; -fx-font-size: 13px; }
+.setup-label {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-weight: bold;
+    -fx-font-size: 11.5px;
+    -fx-text-fill: -faint;
+    -fx-padding: 6px 0 0 2px;
+}
+.opt-card {
+    -fx-background-color: -glass;
+    -fx-border-color: -hair;
+    -fx-background-radius: 16px;
+    -fx-border-radius: 16px;
+    -fx-padding: 14px 16px;
+    -fx-cursor: hand;
+}
+.opt-card:hover { -fx-border-color: -accent-line; }
+.opt-selected {
+    -fx-background-color: -accent-soft;
+    -fx-border-color: -accent;
+    -fx-border-width: 1.5px;
+    -fx-effect: dropshadow(gaussian, -accent-glow, 18, 0.15, 0, 0);
+}
+.opt-title { -fx-font-family: "Bodoni MT"; -fx-font-size: 22px; -fx-text-fill: white; }
+.opt-text  { -fx-font-size: 12.5px; -fx-text-fill: -muted; -fx-line-spacing: 1px; }
+.opt-selected .opt-text { -fx-text-fill: rgba(255, 255, 255, 0.85); }
+
+.setup-friend { -fx-padding: 2px 0 0 0; }
+.setup-field, .setup-area, .setup-area .content {
+    -fx-background-color: -ink-3;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: -faint;
+    -fx-font-size: 14px;
+}
+.setup-field {
+    -fx-border-color: -hair-2;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-padding: 10px 14px;
+}
+.setup-field:focused, .setup-area:focused { -fx-border-color: -accent-line; }
+.setup-area {
+    -fx-border-color: -hair-2;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-padding: 4px;
+}
+.setup-area .scroll-pane, .setup-area .viewport { -fx-background-color: transparent; }
+.setup-note { -fx-font-size: 11.5px; -fx-text-fill: -faint; }

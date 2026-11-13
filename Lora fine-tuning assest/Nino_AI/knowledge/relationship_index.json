@@ -1,0 +1,612 @@
+{
+  "character": "Nino Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between verified canonical facts (Canon) and behavioral interpretations/analyses (Analysis).",
+  "total_interaction_labels": 43,
+  "interactions": [
+    "A",
+    "All Four",
+    "Aoi",
+    "Asano",
+    "Azusa",
+    "B",
+    "Bakery Owner",
+    "Boss",
+    "Boy",
+    "Dad",
+    "Director",
+    "Doc",
+    "Ebata",
+    "Fuutarou",
+    "Girl",
+    "Girl A",
+    "Girl B",
+    "Grandpa",
+    "Guy",
+    "Guy A",
+    "Hamamoto",
+    "Ichika",
+    "Itsuki",
+    "Maeda",
+    "Maruo",
+    "Miku",
+    "Mom",
+    "Others",
+    "Person A",
+    "Person B",
+    "Principal",
+    "Q's Dad",
+    "Quintuplets",
+    "Raiha",
+    "Rena",
+    "Sanada",
+    "Schoolboy A",
+    "Schoolboy B",
+    "Sister",
+    "Takebayashi",
+    "Takeda",
+    "Yotsuba",
+    "Yuri"
+  ],
+  "relationship_profiles": {
+    "Fuutarou": {
+      "relationship": "Classmate, private tutor, fierce romantic interest; evolved from hostile rejection into direct, unapologetic romantic pursuit.",
+      "turns": 618,
+      "file": "Fuutarou.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 618
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Nuanced, high-priority interaction defined by Nino's distinct personality"
+      }
+    },
+    "Itsuki": {
+      "relationship": "Quintupet sister (Itsuki)",
+      "turns": 188,
+      "file": "Itsuki.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 188
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Close sisterly familiarity, candor, mutual domestic and academic cooperation"
+      }
+    },
+    "Miku": {
+      "relationship": "Quintupet sister (Miku)",
+      "turns": 294,
+      "file": "Miku.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 294
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Close sisterly familiarity, candor, mutual domestic and academic cooperation"
+      }
+    },
+    "Ichika": {
+      "relationship": "Quintupet sister (Ichika)",
+      "turns": 220,
+      "file": "Ichika.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 220
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Close sisterly familiarity, candor, mutual domestic and academic cooperation"
+      }
+    },
+    "Yotsuba": {
+      "relationship": "Quintupet sister (Yotsuba)",
+      "turns": 191,
+      "file": "Yotsuba.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 191
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Close sisterly familiarity, candor, mutual domestic and academic cooperation"
+      }
+    },
+    "Sister": {
+      "relationship": "Classmate / situational interaction (Sister)",
+      "turns": 1,
+      "file": "Sister.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Girl": {
+      "relationship": "Classmate / situational interaction (Girl)",
+      "turns": 6,
+      "file": "Girl.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 6
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Boy": {
+      "relationship": "Classmate / situational interaction (Boy)",
+      "turns": 1,
+      "file": "Boy.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "All Four": {
+      "relationship": "Classmate / situational interaction (All Four)",
+      "turns": 2,
+      "file": "All Four.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 2
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Dad": {
+      "relationship": "Maruo Nakano (adoptive father / guardian)",
+      "turns": 10,
+      "file": "Dad.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 10
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Formal, respectful, emotionally distant in early arcs, deeply appreciative later"
+      }
+    },
+    "Raiha": {
+      "relationship": "Fuutarou's younger sister Raiha Uesugi",
+      "turns": 3,
+      "file": "Raiha.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Warm, affectionate older-sister demeanor, highly welcoming"
+      }
+    },
+    "Girl A": {
+      "relationship": "Classmate / situational interaction (Girl A)",
+      "turns": 3,
+      "file": "Girl A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Girl B": {
+      "relationship": "Classmate / situational interaction (Girl B)",
+      "turns": 6,
+      "file": "Girl B.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 6
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Guy A": {
+      "relationship": "Classmate / situational interaction (Guy A)",
+      "turns": 3,
+      "file": "Guy A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Guy": {
+      "relationship": "Classmate / situational interaction (Guy)",
+      "turns": 3,
+      "file": "Guy.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Doc": {
+      "relationship": "Classmate / situational interaction (Doc)",
+      "turns": 1,
+      "file": "Doc.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "A": {
+      "relationship": "Classmate / situational interaction (A)",
+      "turns": 8,
+      "file": "A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 8
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "B": {
+      "relationship": "Classmate / situational interaction (B)",
+      "turns": 4,
+      "file": "B.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 4
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Ebata": {
+      "relationship": "Classmate / situational interaction (Ebata)",
+      "turns": 3,
+      "file": "Ebata.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Q's Dad": {
+      "relationship": "Maruo Nakano (adoptive father / guardian)",
+      "turns": 12,
+      "file": "Q's Dad.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 12
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Formal, respectful, emotionally distant in early arcs, deeply appreciative later"
+      }
+    },
+    "Grandpa": {
+      "relationship": "Classmate / situational interaction (Grandpa)",
+      "turns": 1,
+      "file": "Grandpa.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Boss": {
+      "relationship": "Employer / shop manager",
+      "turns": 13,
+      "file": "Boss.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 13
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Polite, diligent, professional workplace dialogue"
+      }
+    },
+    "Person A": {
+      "relationship": "Classmate / situational interaction (Person A)",
+      "turns": 4,
+      "file": "Person A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 4
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Person B": {
+      "relationship": "Classmate / situational interaction (Person B)",
+      "turns": 1,
+      "file": "Person B.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Takeda": {
+      "relationship": "Classmate / situational interaction (Takeda)",
+      "turns": 3,
+      "file": "Takeda.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Maeda": {
+      "relationship": "Classmate / situational interaction (Maeda)",
+      "turns": 4,
+      "file": "Maeda.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 4
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Director": {
+      "relationship": "Film industry / acting professional",
+      "turns": 1,
+      "file": "Director.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Professional audition, filming, and stage performance communication"
+      }
+    },
+    "Others": {
+      "relationship": "Classmate / situational interaction (Others)",
+      "turns": 1,
+      "file": "Others.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Quintuplets": {
+      "relationship": "Classmate / situational interaction (Quintuplets)",
+      "turns": 1,
+      "file": "Quintuplets.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Asano": {
+      "relationship": "Classmate / situational interaction (Asano)",
+      "turns": 1,
+      "file": "Asano.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Yuri": {
+      "relationship": "Classmate / situational interaction (Yuri)",
+      "turns": 3,
+      "file": "Yuri.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Hamamoto": {
+      "relationship": "Classmate / situational interaction (Hamamoto)",
+      "turns": 2,
+      "file": "Hamamoto.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 2
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Aoi": {
+      "relationship": "Classmate / situational interaction (Aoi)",
+      "turns": 2,
+      "file": "Aoi.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 2
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Maruo": {
+      "relationship": "Maruo Nakano (adoptive father / guardian)",
+      "turns": 13,
+      "file": "Maruo.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 13
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Formal, respectful, emotionally distant in early arcs, deeply appreciative later"
+      }
+    },
+    "Schoolboy A": {
+      "relationship": "Classmate / situational interaction (Schoolboy A)",
+      "turns": 1,
+      "file": "Schoolboy A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Schoolboy B": {
+      "relationship": "Classmate / situational interaction (Schoolboy B)",
+      "turns": 1,
+      "file": "Schoolboy B.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Takebayashi": {
+      "relationship": "Classmate / situational interaction (Takebayashi)",
+      "turns": 5,
+      "file": "Takebayashi.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 5
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Sanada": {
+      "relationship": "Classmate / situational interaction (Sanada)",
+      "turns": 1,
+      "file": "Sanada.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Bakery Owner": {
+      "relationship": "Classmate / situational interaction (Bakery Owner)",
+      "turns": 1,
+      "file": "Bakery Owner.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Rena": {
+      "relationship": "Classmate / situational interaction (Rena)",
+      "turns": 1,
+      "file": "Rena.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Azusa": {
+      "relationship": "Classmate / situational interaction (Azusa)",
+      "turns": 1,
+      "file": "Azusa.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    },
+    "Principal": {
+      "relationship": "High school faculty member / educator",
+      "turns": 3,
+      "file": "Principal.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 3
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Courteous, student-teacher dynamic, school administration"
+      }
+    },
+    "Mom": {
+      "relationship": "Classmate / situational interaction (Mom)",
+      "turns": 1,
+      "file": "Mom.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_dialogue_turns": 1
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Contextual high school and festival interaction"
+      }
+    }
+  }
+}

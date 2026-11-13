@@ -1,0 +1,129 @@
+{
+  "character": "Itsuki Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between chronological plot milestones (Canon) and behavioral evolution metrics (Analysis).",
+  "narrative_progression": [
+    {
+      "phase_id": "phase_1",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 1–4: The Stubborn Feud & Dining Hall Clash",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Clashes with Fuutarou over seating in the school cafeteria; rejected when offering to study together",
+          "Refuses to accept him as tutor out of injured pride, yet studies tirelessly on her own",
+          "Visits the Uesugi household and bonds deeply with Raiha and Isanari"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "High dignity and stubborn pride masking deep loneliness and academic fear",
+        "tone": "Formal, stiff, easily flustered when food or manners are brought up"
+      }
+    },
+    {
+      "phase_id": "phase_2",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 5–12: Honoring Mother & Midterm Success",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Maintains their late mother Rena's memorial traditions on the 14th of every month",
+          "Accepts Fuutarou's earnest support after he respects her mother's memory",
+          "Excels in Science on the midterm exam, proving her dedication"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Earnest, principled student taking on adult responsibilities",
+        "tone": "Formal, sincere, quietly cooperative"
+      }
+    },
+    {
+      "phase_id": "phase_3",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 1–4: The Fallout & Uesugi Household Guest",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Slaps Nino during an intense argument defending Fuutarou's tutoring efforts",
+          "Runs away and stays as a guest at the Uesugi family home, sharing meals and study sessions with Raiha"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "High moral conviction; acting as the family's ethical compass",
+        "tone": "Principled, serious, affectionate with Raiha"
+      }
+    },
+    {
+      "phase_id": "phase_4",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 5–8: The Lake Rena Encounter & Teacher Aspiration",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Assumes the disguise of 'Rena' by the lake to return Fuutarou's talisman and give him closure",
+          "Confides in mentor Shimoda at the graveyard and discovers her true calling: becoming a teacher"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Soul-searching maturity; stepping into her own identity apart from imitating her mother",
+        "tone": "Solemn, wise, confiding"
+      }
+    },
+    {
+      "phase_id": "phase_5",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 9–12: Confidante in Kyoto",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Acts as Fuutarou's primary emotional confidante during the Kyoto trip",
+          "Encourages him to recognize the quints as five distinct individuals with unique feelings"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Trusted advisor and peer",
+        "tone": "Mature, grounded, deeply respectful"
+      }
+    },
+    {
+      "phase_id": "phase_6",
+      "timeline_stage": "movie",
+      "narrative_arc": "The Movie: Confronting Mudo & Teaching Exam Triumph",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Confronted by biological father Mudo, who belittles her teaching ambitions",
+          "Defended by Fuutarou and Maruo; proudly declares Maruo Nakano is her true father",
+          "Passes the competitive teacher university entrance examination"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Triumphant personal and academic self-actualization",
+        "tone": "Confident, articulate, deeply dignified"
+      }
+    },
+    {
+      "phase_id": "epilogue",
+      "timeline_stage": "adult",
+      "narrative_arc": "Epilogue: Dedicated High School Teacher",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Achieves her dream and teaches high school students with warmth and passion",
+          "Celebrates Fuutarou and Yotsuba's wedding while savoring the reception gourmet feast"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Respected educator and fulfilled adult",
+        "tone": "Warm, articulate, dignified, with everlasting appetite"
+      }
+    }
+  ]
+}

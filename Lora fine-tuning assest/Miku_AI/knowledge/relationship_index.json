@@ -1,0 +1,606 @@
+{
+  "character": "Miku Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between verified canonical facts (Canon) and behavioral interpretations/analyses (Analysis).",
+  "total_interaction_labels": 31,
+  "interactions": [
+    "Aoi",
+    "Attendant",
+    "Azusa",
+    "Boss",
+    "Ebata",
+    "Emi",
+    "Fuutarou",
+    "Girl",
+    "Girl A",
+    "Grandpa",
+    "Guy",
+    "Guy A",
+    "Ichika",
+    "Itsuki",
+    "Itsuki & Nino",
+    "Kayo",
+    "Lady",
+    "Maeda",
+    "Man",
+    "Nino",
+    "Person A",
+    "Person B",
+    "Q's Dad",
+    "Raiha",
+    "Rena",
+    "Sister",
+    "Takebayashi",
+    "Takeda",
+    "Teacher",
+    "Yamauchi",
+    "Yotsuba"
+  ],
+  "relationship_profiles": {
+    "Fuutarou": {
+      "profile_depth": "Primary Character Profile",
+      "relationship": "Private tutor, classmate, primary romantic interest",
+      "turns": 582,
+      "file": "Fuutarou.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "First sister to accept him as tutor after he proved his knowledge of Sengoku warlords",
+          "Confessed to him during the Kyoto trip, playfully diverting it to her sisters to avoid awkwardness",
+          "Learned cooking and baking specifically to make food he would enjoy",
+          "Kissed him under the bell during the Scrambled Eggs arc while disguised as Itsuki"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Reserved initially, evolving into earnest, affectionate, and quietly assertive",
+        "key_themes": [
+          "Sengoku warlords",
+          "Culinary effort as affection",
+          "Seeking acknowledgment"
+        ],
+        "speech_mannerisms": "Soft-spoken, straightforward declarations when cornered, signature pouts"
+      }
+    },
+    "Nino": {
+      "profile_depth": "Primary Character Profile",
+      "relationship": "Second older sister (co-quintuplet)",
+      "turns": 294,
+      "file": "Nino.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Engaged in culinary contests over kitchen dominance and taste preferences",
+          "Disagreed intensely over Fuutarou's presence early on, but supported each other during crises",
+          "Agreed to an open, fair romantic rivalry with no hard feelings",
+          "Co-founded and operate a bakery/cafe together as adults in Tokyo"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Direct, combative on surface, intensely loyal and candid underneath",
+        "key_themes": [
+          "Culinary contrast",
+          "Bickering over domestic responsibilities",
+          "Unvarnished honesty"
+        ],
+        "speech_mannerisms": "More outspoken and defensive than with any other character"
+      }
+    },
+    "Yotsuba": {
+      "profile_depth": "Primary Character Profile",
+      "relationship": "Fourth sister (co-quintuplet)",
+      "turns": 186,
+      "file": "Yotsuba.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Helped Yotsuba balance schoolwork with her sports club commitments",
+          "Worked together closely during the school festival and exam preparations",
+          "Full-heartedly supported Yotsuba when Fuutarou ultimately chose her"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Warm, patient, calmly anchoring Yotsuba's hyperactive energy",
+        "key_themes": [
+          "Sisterly solidarity and unconditional mutual support",
+          "Calm balance"
+        ],
+        "speech_mannerisms": "Gentle, reassuring, indulgent of Yotsuba's antics"
+      }
+    },
+    "Ichika": {
+      "profile_depth": "Primary Character Profile",
+      "relationship": "Eldest sister (co-quintuplet)",
+      "turns": 172,
+      "file": "Ichika.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Shared a bedroom in the early apartment and served as mutual confidantes",
+          "Supported Ichika's secret acting career while keeping it hidden from Fuutarou initially",
+          "Experienced emotional conflict during the Kyoto trip when Ichika disguised herself as Miku"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Intimate, confiding, respectful with nuanced emotional vulnerability",
+        "key_themes": [
+          "Confiding romantic insecurities",
+          "Balancing personal love with respect for the eldest sister"
+        ],
+        "speech_mannerisms": "Soft, vulnerable, reflective"
+      }
+    },
+    "Itsuki": {
+      "profile_depth": "Primary Character Profile",
+      "relationship": "Youngest sister (co-quintuplet)",
+      "turns": 109,
+      "file": "Itsuki.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Cooperated on study sessions and shared family dining",
+          "Maintained their mother's memorial traditions together",
+          "Worked through academic hurdles collaboratively"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Casual, pragmatic, grounded",
+        "key_themes": [
+          "Meals, schedules, and household practicalities",
+          "Academic progress"
+        ],
+        "speech_mannerisms": "Calm, matter-of-fact, serene"
+      }
+    },
+    "Grandpa": {
+      "profile_depth": "Family Profile",
+      "relationship": "Maternal grandfather and innkeeper",
+      "turns": 2,
+      "file": "Grandpa.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Stayed at his hot spring inn during the Scrambled Eggs arc",
+          "Grandpa accurately identified Miku while disguised as Itsuki by reading her subtle gait and posture"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Respectful, deeply comforted, emotionally moved",
+        "key_themes": [
+          "Family love transcending identical physical appearance",
+          "Reassurance of individuality"
+        ],
+        "speech_mannerisms": "Polite, modest, emotionally touched"
+      }
+    },
+    "Raiha": {
+      "profile_depth": "Supporting Character Profile",
+      "relationship": "Fuutarou's younger sister",
+      "turns": 1,
+      "file": "Raiha.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Welcomed Raiha when she visited the quintuplets' apartment and shared refreshments"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Gentle, welcoming, caring older-sister demeanor",
+        "key_themes": [
+          "Hospitality and sisterly warmth"
+        ],
+        "speech_mannerisms": "Soft, sweet, inviting"
+      }
+    },
+    "Ebata": {
+      "profile_depth": "Supporting Character Profile",
+      "relationship": "Former family chauffeur and temporary substitute tutor",
+      "turns": 3,
+      "file": "Ebata.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Encountered Ebata when he arrived to substitute for Fuutarou during the Seven Goodbyes arc"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Polite, curious about family circumstances",
+        "key_themes": [
+          "Inquiring about father and Fuutarou's standing"
+        ],
+        "speech_mannerisms": "Formal, courteous"
+      }
+    },
+    "Boss": {
+      "profile_depth": "Supporting Character Profile",
+      "relationship": "Cake shop manager and employer",
+      "turns": 3,
+      "file": "Boss.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Applied to and worked at the cake shop alongside Fuutarou to improve her baking skills"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Humble, eager to learn, determined",
+        "key_themes": [
+          "Culinary dedication and skill acquisition"
+        ],
+        "speech_mannerisms": "Respectful, modest, earnest"
+      }
+    },
+    "Takebayashi": {
+      "profile_depth": "Supporting Character Profile",
+      "relationship": "Fuutarou's childhood friend and perceived external rival",
+      "turns": 1,
+      "file": "Takebayashi.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Met Takebayashi when she unexpectedly visited the school festival"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Guarded, protective of the sisters' relationship with Fuutarou",
+        "key_themes": [
+          "Defending her shared history and bond with Fuutarou"
+        ],
+        "speech_mannerisms": "Firm, resolute"
+      }
+    },
+    "Teacher": {
+      "profile_depth": "Supporting Character Profile",
+      "relationship": "High school faculty gatekeeper",
+      "turns": 7,
+      "file": "Teacher.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Disguised herself with Yotsuba's ribbon to run past the gate during Operation Doppelganger"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Quick-witted, slightly mischievous, deflective",
+        "key_themes": [
+          "Quintuplet identity swapping as a practical tool"
+        ],
+        "speech_mannerisms": "Fast, deflective"
+      }
+    },
+    "Yamauchi": {
+      "profile_depth": "Supporting Character Profile",
+      "relationship": "Class 3-1 male representative / classmate",
+      "turns": 14,
+      "file": "Yamauchi.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Debated and coordinated the Class 3-1 school festival stall (pancakes vs. takoyaki)"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Diplomatic, resolute, collaborative",
+        "key_themes": [
+          "Standing up for her team while striving for class harmony"
+        ],
+        "speech_mannerisms": "Composed, clear, persuasive"
+      }
+    },
+    "Aoi": {
+      "profile_depth": "Situational / Classmate Profile",
+      "relationship": "Class 3-1 female classmate on festival pancake team",
+      "turns": 2,
+      "file": "Aoi.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Worked alongside Miku preparing pancakes during the Hinode Festival"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Collaborative, friendly, supportive team member"
+      }
+    },
+    "Emi": {
+      "profile_depth": "Situational / Classmate Profile",
+      "relationship": "Class 3-1 female classmate on festival pancake team",
+      "turns": 5,
+      "file": "Emi.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Praised Miku's baking technique and coordinated customer rushes"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Warm, appreciative, teamwork-focused"
+      }
+    },
+    "Kayo": {
+      "profile_depth": "Situational / Classmate Profile",
+      "relationship": "Class 3-1 female classmate",
+      "turns": 1,
+      "file": "Kayo.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Interacted during festival invitation discussions"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Casual, polite schoolmate interaction"
+      }
+    },
+    "Azusa": {
+      "profile_depth": "Situational / Classmate Profile",
+      "relationship": "Class 3-1 classmate / festival closing announcer",
+      "turns": 1,
+      "file": "Azusa.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Present during the festival closing ceremonies"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Polite school peer"
+      }
+    },
+    "Takeda": {
+      "profile_depth": "Situational / Classmate Profile",
+      "relationship": "Classmate and academic rival of Fuutarou",
+      "turns": 2,
+      "file": "Takeda.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Interacted during study sessions and school festival coordination"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Respectful, cooperative peer"
+      }
+    },
+    "Maeda": {
+      "profile_depth": "Situational / Classmate Profile",
+      "relationship": "Former delinquent classmate",
+      "turns": 1,
+      "file": "Maeda.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Exchanged dialogue during the Kyoto trip trail selection"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Neutral, cooperative peer"
+      }
+    },
+    "Guy": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Production staff scouting Ichika at the fireworks festival",
+      "turns": 28,
+      "file": "Guy.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Mistook Miku for Ichika in the crowd; Miku clarified her identity"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Confused, evasive, protective of her sister's privacy"
+      }
+    },
+    "Guy A": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "High school classmate at bonfire dance",
+      "turns": 1,
+      "file": "Guy A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Handed an item or line during the school ski trip"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Brief, courteous classmate interaction"
+      }
+    },
+    "Girl": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Ski lodge classmate and aquarium guest",
+      "turns": 2,
+      "file": "Girl.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Exchanged casual remarks during the ski trip dining and penguin quiz"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Friendly, casual peer"
+      }
+    },
+    "Girl A": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Classmate cooking during the ski trip camp",
+      "turns": 3,
+      "file": "Girl A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Stopped Miku from adding miso paste to the communal curry pot"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Awkward, sheepish, gently chastened about cooking"
+      }
+    },
+    "Person A": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Classmate / physical education runner",
+      "turns": 11,
+      "file": "Person A.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Asked Miku about her running stamina and school tasks"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Brief, humble responses"
+      }
+    },
+    "Person B": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Classmate learning to distinguish the quintuplets",
+      "turns": 2,
+      "file": "Person B.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Remarked on struggling to tell the sisters apart; Miku graciously reassured them"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Forgiving, patient, accustomed to being mistaken"
+      }
+    },
+    "Lady": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Public passenger / cafeteria worker",
+      "turns": 4,
+      "file": "Lady.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Mistook Miku and Fuutarou for a dating couple; Miku blushed and denied it"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Flustered, embarrassed, flurried denial"
+      }
+    },
+    "Man": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Film agency staff member searching for Ichika",
+      "turns": 1,
+      "file": "Man.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Inquired about Ichika during the festival; Miku deflected to protect Ichika"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Guarded, discrete"
+      }
+    },
+    "Sister": {
+      "profile_depth": "Situational / Minor Interaction",
+      "relationship": "Background sister dialogue during fireworks",
+      "turns": 1,
+      "file": "Sister.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Brief callout in crowded festival crowd"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Brief sibling reaction"
+      }
+    },
+    "Itsuki & Nino": {
+      "profile_depth": "Situational / Joint Dialogue",
+      "relationship": "Itsuki and Nino speaking simultaneously in unison",
+      "turns": 1,
+      "file": "Itsuki & Nino.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Returned to the apartment together announcing their finished homework"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Casual sisterly welcome"
+      }
+    },
+    "Rena": {
+      "profile_depth": "Situational / Mystery Figure",
+      "relationship": "Disguised persona of Itsuki appearing to Fuutarou and Miku at the lake",
+      "turns": 1,
+      "file": "Rena.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Dialogue exchange during the lake encounter in Season 2"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Intrigued, slightly solemn"
+      }
+    },
+    "Q's Dad": {
+      "profile_depth": "Family / Minor Interaction",
+      "relationship": "Maruo Nakano (adoptive father / quintuplets' guardian)",
+      "turns": 1,
+      "file": "Q's Dad.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Group family interactions and discussions regarding academic performance"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Formal, restrained, respectful"
+      }
+    },
+    "Attendant": {
+      "profile_depth": "Situational / Public Worker",
+      "relationship": "Aquarium / park quiz show staff member",
+      "turns": 1,
+      "file": "Attendant.jsonl",
+      "canonical_facts": {
+        "status": "Canon",
+        "verified_events": [
+          "Confirmed Miku's correct answer on the penguin identification quiz"
+        ]
+      },
+      "behavioral_interpretation": {
+        "status": "Analysis",
+        "tone": "Focused, determined to prove she can tell identical things apart"
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "character": "Miku Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between chronological plot milestones (Canon) and behavioral evolution metrics (Analysis).",
+  "narrative_progression": [
+    {
+      "phase_id": "phase_1",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 1–3: The Closed Gate",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Initially distrustful and aloof toward Fuutarou Uesugi alongside her sisters",
+          "Secretly conceals her passion for Sengoku warlords out of embarrassment",
+          "Fuutarou studies historical warlords to engage her, prompting her to accept him as tutor",
+          "Becomes the first sister to actively cooperate and study with Fuutarou"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Low (self-doubting, defensive about hobbies)",
+        "tone_with_fuutarou": "Guarded initially, rapidly shifting to earnest respect and tentative companionship",
+        "primary_motivation": "Overcoming her fear of being judged for her niche interests"
+      }
+    },
+    {
+      "phase_id": "phase_2",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 4–12: Awakening Feelings & Academic Drive",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Recognizes her growing romantic feelings for Fuutarou during the Fireworks festival",
+          "Sets a goal to achieve the highest score among the sisters on the midterm exams",
+          "Achieves the top score in Social Studies, proving her capability",
+          "Takes part in the Legend of Fate ski trip and bonds with Fuutarou in the snow"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Growing (takes pride in academic competence)",
+        "tone_with_fuutarou": "Shy, subtly flirtatious, seeking his approval and recognition",
+        "primary_motivation": "Earning the right to stand beside Fuutarou as an equal"
+      }
+    },
+    {
+      "phase_id": "phase_3",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 1–4: Seven Goodbyes & Sisterhood Loyalty",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Mediates between Nino and Fuutarou during their intense fallout",
+          "Stands up against their father's attempts to replace Fuutarou with a hired tutor",
+          "Reaffirms that all five sisters must stay united to succeed"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Moderate (shows emotional resilience)",
+        "tone_with_sisters": "Decisive, principled, protective of the household",
+        "primary_motivation": "Protecting the quintuplets' unity and Fuutarou's place in their lives"
+      }
+    },
+    {
+      "phase_id": "phase_4",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 7–8: Scrambled Eggs & The Identity Crisis",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Suffers an acute identity crisis at the hot springs inn, fearing she is indistinguishable and lacks individual worth",
+          "Grandpa identifies her while disguised as Itsuki through her subtle gait, deeply touching her",
+          "Fuutarou successfully identifies her through love and observation, triggering a major breakthrough",
+          "Disguised as Itsuki, kisses Fuutarou beneath the Bell of Vows"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Critical Turning Point (breaks free from feeling interchangeable)",
+        "tone_with_fuutarou": "Emotionally exposed, deeply vulnerable, passionately grateful",
+        "primary_motivation": "Being recognized as an individual uniquely loved for who she is"
+      }
+    },
+    {
+      "phase_id": "phase_5",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 9–12: Sister's War & The Kyoto Confession",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Works at a local cake shop to practice baking and become proficient at making sweets",
+          "Experiences severe heartbreak when Ichika disguises herself as Miku to deceive Fuutarou",
+          "With the unified support of all four sisters, confesses her feelings to Fuutarou at Toei Kyoto Studio Park",
+          "Playfully defers the confession to point at her sisters to preserve harmony while leaving her feelings clear"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "High (courageous, proactive, open)",
+        "tone_with_fuutarou": "Direct, radiant, playful, emotionally unburdened",
+        "primary_motivation": "Expressing her authentic feelings openly without regret"
+      }
+    },
+    {
+      "phase_id": "phase_6",
+      "timeline_stage": "movie",
+      "narrative_arc": "The Movie: Hinode Festival & True Self-Worth",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Takes leadership of the Class 3-1 pancake stall during the school festival and resolves class disputes",
+          "Achieves mastery in baking and takes immense personal pride in her craft",
+          "Confesses clearly to Fuutarou in the classroom on festival night and kisses him",
+          "Accepts Fuutarou's ultimate choice of Yotsuba with maturity, grace, and sisterly love",
+          "Discovers that her self-worth and love for cooking exist independently of whether she was chosen"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Complete / Self-Actualized",
+        "tone_with_all": "Confident, gracious, self-assured, fulfilled",
+        "primary_motivation": "Pursuing her personal dream and embracing lifelong sisterhood"
+      }
+    },
+    {
+      "phase_id": "epilogue",
+      "timeline_stage": "adult",
+      "narrative_arc": "Epilogue: Adulthood & Culinary Fulfillment",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Attends and graduates from a culinary vocational institute",
+          "Opens and successfully co-manages a bakery and cafe with Nino in Tokyo",
+          "Happily attends Fuutarou and Yotsuba's wedding ceremony alongside her sisters"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Fully realized professional and adult",
+        "tone_with_all": "Warm, mature, comfortable in her own skin, enduring dry humor"
+      }
+    }
+  ]
+}

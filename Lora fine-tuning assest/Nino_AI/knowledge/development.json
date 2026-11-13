@@ -1,0 +1,131 @@
+{
+  "character": "Nino Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between chronological plot milestones (Canon) and behavioral evolution metrics (Analysis).",
+  "narrative_progression": [
+    {
+      "phase_id": "phase_1",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 1–4: Fortress of Defiance",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Spikes Fuutarou's drink with a sleeping sedative to expel him from the apartment",
+          "Refuses to attend study sessions, insisting the sisters need no outside tutor",
+          "Fiercely guards family traditions and sisterly independence"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "High defensive hostility masking deep fear of sisters drifting apart",
+        "tone": "Sharp, sarcastic, defensive, fiercely loyal to sisters"
+      }
+    },
+    {
+      "phase_id": "phase_2",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 5–12: Cracks in the Armor & Kintarou",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Enjoys fireworks festival cooking with her sisters",
+          "Rescued by Fuutarou during the bonfire ski trip test of courage; meets his blond disguise 'Kintarou'",
+          "Passes English with flying colors on the midterm exam"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Sentimental, romantic idealist beneath the sharp exterior",
+        "tone": "Tsundere friction, grudging respect for Fuutarou's commitment"
+      }
+    },
+    {
+      "phase_id": "phase_3",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 1–4: Seven Goodbyes & The Haircut",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Clashes fiercely with Itsuki over family loyalty and storms out of the apartment",
+          "Discovers Kintarou's true identity as Fuutarou and reconciles her past attachments",
+          "Cuts her long hair into a shoulder-length bob, symbolizing moving forward together"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Critical emotional maturity breakthrough",
+        "tone": "Decisive, courageous, embracing change while protecting unity"
+      }
+    },
+    {
+      "phase_id": "phase_4",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 5–8: The Unstoppable Confession",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Confesses her romantic love to Fuutarou directly while riding on his motorcycle",
+          "Repeats the confession face-to-face at the bakery when he claims not to have heard it",
+          "Agrees to fair, open rivalry with Miku with zero behind-the-back deception"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Peak romantic confidence (The \"Runaway Locomotive\")",
+        "tone": "Bold, affectionate, assertive, completely discarding the tsundere defense"
+      }
+    },
+    {
+      "phase_id": "phase_5",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 9–12: Kyoto Trip & Defending Sisters",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Fiercely confronts Ichika after discovering her disguise sabotage against Miku",
+          "Comforts Miku and rallies all sisters together to support Miku's confession in Kyoto"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Principled, passionate sisterly solidarity",
+        "tone": "Direct, righteous, passionately loyal"
+      }
+    },
+    {
+      "phase_id": "phase_6",
+      "timeline_stage": "movie",
+      "narrative_arc": "The Movie: Festival Takoyaki & Heartbreak",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Leads the Class 3-1 takoyaki team during the school festival",
+          "Confesses her whole heart once more to Fuutarou in the tea ceremony room",
+          "Weeps with immense courage upon hearing his choice, vowing to support Yotsuba unconditionally"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Courageous, emotionally resilient",
+        "tone": "Passionate, dignified, fiercely loving"
+      }
+    },
+    {
+      "phase_id": "epilogue",
+      "timeline_stage": "adult",
+      "narrative_arc": "Epilogue: Tokyo Cafe Partner",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Co-owns and runs a successful cafe/bakery with Miku in Tokyo",
+          "Dresses her sisters with styling advice for Fuutarou and Yotsuba's wedding"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Fulfilled culinary entrepreneur",
+        "tone": "Vibrant, sharp-witted, affectionate, dynamic"
+      }
+    }
+  ]
+}

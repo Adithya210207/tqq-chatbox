@@ -1,0 +1,38 @@
+# ── Too big for GitHub (models live only on the author's PC) ──────────────────
+*.gguf
+*.safetensors
+*.zip
+LoRa fine tuning model/
+
+# ── Private ───────────────────────────────────────────────────────────────────
+HANDOFF.md
+**/history/
+
+# ── Third-party content (anime subtitles and data built from them) ────────────
+Transcript/
+Lora fine-tuning assest/*_AI/datasets/
+Lora fine-tuning assest/*_AI/source/
+Lora fine-tuning assest/*_AI/model/
+Lora fine-tuning assest/v2_pipeline/output/
+Lora fine-tuning assest/v2_pipeline/gold/
+Lora fine-tuning assest/v2_pipeline/reverse_claude/
+Lora fine-tuning assest/v2_pipeline/facts/
+Lora fine-tuning assest/v2_pipeline/prompts/
+
+# ── Test results (model outputs), keep the test scripts ───────────────────────
+Lora fine-tuning assest/v2_pipeline/eval/*.jsonl
+Lora fine-tuning assest/v2_pipeline/eval/*.json
+Lora fine-tuning assest/v2_pipeline/eval/*.txt
+
+# ── Build output and downloaded tools ─────────────────────────────────────────
+TQQ Chat App/*/out/
+TQQ Chat App/*/lib/
+TQQ Chat App/*/pkg/
+TQQ Chat App/*/TQQ Chatbox v1/
+TQQ Chat App/*/TQQ Chatbox v2/
+*.lnk
+__pycache__/
+*.pyc
+
+# ── Office lock files ─────────────────────────────────────────────────────────
+~$*

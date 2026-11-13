@@ -1,0 +1,69 @@
+TQQ Chatbox — Proprietary License (All Rights Reserved)
+
+Copyright (c) 2026 Adithya V. All Rights Reserved.
+
+This repository and everything in it that was created by the copyright holder
+(the "Work") — including the source code, the application and its executables,
+the training data pipeline, the hand-written training chats, the fact sheets,
+the test scripts, the documentation and slide decks, and the portraits and logos
+made for this project — is the property of the copyright holder.
+
+1. PERMITTED USE
+
+   The Work is published for portfolio, demonstration, and educational viewing
+   purposes. You may:
+
+   a. view and read the source code to understand how it is implemented; and
+   b. download, install and run the Work on your own computer for your own
+      personal, non-commercial use, making only the copies needed to do that.
+      Using the app as intended (choosing pictures, changing its style file,
+      keeping your own chats) is part of this personal use.
+
+   Section 1(b) applies even though section 2(a) restricts copying.
+
+2. RESTRICTIONS
+
+   Apart from the personal use allowed in section 1, and without the prior
+   written permission of the copyright holder, you may NOT:
+
+   a. copy or reproduce substantial portions of the Work;
+   b. redistribute, republish, or mirror the Work or this repository;
+   c. use the Work, or any part of its code, in commercial projects;
+   d. submit the Work, or substantially similar code, as your own for academic
+      purposes;
+   e. remove or alter copyright notices, or claim the Work as your own;
+   f. share, sell, rent or re-upload the Work, or a changed version of it,
+      including copies you downloaded for personal use;
+   g. change the source code and use or share the changed version.
+
+   No other rights are granted, whether by implication, estoppel, or otherwise.
+
+3. PERMISSION
+
+   If you would like to use any part of this project, please contact the
+   copyright holder first and ask for permission.
+
+4. THIRD-PARTY MATERIAL
+
+   This license covers only the Work created by the copyright holder.
+   The following parts belong to their own owners and remain under their own
+   terms; nothing in this license grants or changes any rights in them:
+
+   - The characters, names and story of "The Quintessential Quintuplets"
+     (c) Negi Haruba / Kodansha. Used in a non-commercial fan project.
+   - L3-8B-Stheno-v3.2 (the base model, and the sister models fine-tuned from it)
+     by Sao10K, licensed under CC BY-NC 4.0, built on Meta Llama 3 and subject
+     to the Meta Llama 3 Community License.
+   - phi4-mini (the judge model) by Microsoft, licensed under the MIT License.
+   - JavaFX / OpenJFX (in lib/), licensed under GPL v2 with the Classpath
+     Exception.
+   - Ollama, Unsloth and Google Colab, used as tools under their own terms.
+
+5. NO WARRANTY
+
+   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.

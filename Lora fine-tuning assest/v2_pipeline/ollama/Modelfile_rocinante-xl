@@ -1,0 +1,10 @@
+# Rocinante-XL-16B with the chat format its author recommends
+# ("Mistral v3 Tekken", no [SYSTEM_PROMPT]). Create it with:
+#   ollama create rocinante-xl -f Modelfile_rocinante-xl
+FROM hf.co/TheDrummer/Rocinante-XL-16B-v1-GGUF:Q4_K_M
+
+TEMPLATE """{{- range $i, $_ := .Messages }}{{- if eq .Role "user" }}[INST]{{ .Content }}[/INST]{{- else if eq .Role "assistant" }}{{ .Content }}</s>{{- end }}{{- end }}"""
+
+PARAMETER stop "</s>"
+PARAMETER stop "[INST]"
+PARAMETER num_ctx 8192

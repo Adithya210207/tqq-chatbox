@@ -1,0 +1,131 @@
+{
+  "character": "Yotsuba Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between chronological plot milestones (Canon) and behavioral evolution metrics (Analysis).",
+  "narrative_progression": [
+    {
+      "phase_id": "phase_1",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 1–4: The Enthusiastic Ally",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Immediately greets Fuutarou with warm enthusiasm and 100% cooperation on Day 1",
+          "Recruits her reluctant sisters to attend tutoring sessions",
+          "Helps Fuutarou navigate the school and Quintuplet dynamics"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Cheerfully helpful exterior masking severe academic anxiety",
+        "tone": "Bright, energetic, humble, deeply grateful"
+      }
+    },
+    {
+      "phase_id": "phase_2",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 5–12: Basketball & The Ferris Wheel Date",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Pressured into assisting the basketball club; struggles between sports obligations and study",
+          "Enjoys a shopping/park outing with Fuutarou, receiving a gift coupon from him",
+          "Achieves high marks in Japanese on the midterm exams"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Chronic people-pleasing driven by fear of disappointing anyone",
+        "tone": "Playful, self-effacing, enthusiastic"
+      }
+    },
+    {
+      "phase_id": "phase_3",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 1–4: Track Team Loyalty & The Truth of Transfer",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Trapped into helping the track club; Fuutarou and sisters step in to liberate her so she can study",
+          "Reveals the past: she failed her exams at their prior elite school, causing all sisters to transfer together"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Severe survivor guilt and debt to her sisters",
+        "tone": "Tearful remorse shifting to grateful commitment to the household"
+      }
+    },
+    {
+      "phase_id": "phase_4",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 5–8: Scrambled Eggs & The Secret Kyoto Past",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Identified by Fuutarou at the hot springs inn by her unique ribbon and mannerisms",
+          "Secretly revealed as the original girl who met young Fuutarou in Kyoto five years ago",
+          "Kisses Fuutarou beneath the Bell of Vows while disguised as Itsuki"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Heartbreaking emotional sacrifice; repressing her feelings so sisters can be happy",
+        "tone": "Cheerfully deceptive smile hiding deep bittersweet longing"
+      }
+    },
+    {
+      "phase_id": "phase_5",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 9–12: Supporting Miku in Kyoto",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Visits the Kyoto shrines where she met Fuutarou as a child, quietly reflecting on their promise",
+          "Throws all her energy into helping Miku confess her feelings to Fuutarou"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Total selflessness; refusing to claim her past connection",
+        "tone": "Unconditionally supportive, tender, selfless"
+      }
+    },
+    {
+      "phase_id": "phase_6",
+      "timeline_stage": "movie",
+      "narrative_arc": "The Movie: Collapse, Confession & Self-Worth",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Overworks herself on school festival committees and collapses from exhaustion in the infirmary",
+          "Fuutarou chooses her in the infirmary room, declaring his love for her",
+          "Initially runs away out of unworthiness; chased down by Fuutarou in the park and accepts his love",
+          "Receives unconditional love and blessing from all four sisters"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Complete emotional liberation; accepts that she is deserving of love",
+        "tone": "Tearful joy, radiant happiness, profound relief"
+      }
+    },
+    {
+      "phase_id": "epilogue",
+      "timeline_stage": "adult",
+      "narrative_arc": "Epilogue: Married Life with Fuutarou",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Marries Fuutarou Uesugi in a beautiful ceremony surrounded by family",
+          "Lives together in Tokyo while cherishing perpetual sisterhood"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Fully healed, joyous, loving spouse and sister",
+        "tone": "Bright, tender, humorous, deeply affectionate"
+      }
+    }
+  ]
+}

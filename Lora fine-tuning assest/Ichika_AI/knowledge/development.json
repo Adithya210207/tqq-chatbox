@@ -1,0 +1,129 @@
+{
+  "character": "Ichika Nakano",
+  "series": "The Quintessential Quintuplets",
+  "provenance_policy": "Strict distinction between chronological plot milestones (Canon) and behavioral evolution metrics (Analysis).",
+  "narrative_progression": [
+    {
+      "phase_id": "phase_1",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 1–4: The Responsible Eldest Sister",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Acts as the mediator and household organizer among the quintuplets",
+          "Secretly attends acting auditions while concealing her career from her sisters and Fuutarou",
+          "Discovered by Fuutarou at the film studio; he promises to keep her secret and supports her studies"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "High external composure masking internal fatigue and career anxieties",
+        "tone": "Playful, teasing, affectionately maternal toward her sisters"
+      }
+    },
+    {
+      "phase_id": "phase_2",
+      "timeline_stage": "season_1",
+      "narrative_arc": "Season 1, Episodes 5–12: Awakening Affection & Camping Trip",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Locks herself in a warehouse with Fuutarou during the school bonfire dance",
+          "Realizes her romantic feelings for Fuutarou while simultaneously observing Miku's feelings",
+          "Excels in Mathematics on the midterm exam, leading by example"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Growing emotional conflict between personal desire and elder-sister duty",
+        "tone": "Gentle, introspective, struggling to repress her feelings for Miku's sake"
+      }
+    },
+    {
+      "phase_id": "phase_3",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 1–4: Seven Goodbyes & Breadwinner",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Takes responsibility for the sisters' new apartment rent using her acting earnings",
+          "Balances grueling film shoot schedules with late-night study sessions with Fuutarou"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Determined, self-sacrificing, emotionally exhausted",
+        "tone": "Tired yet resilient, seeking solace in Fuutarou's presence"
+      }
+    },
+    {
+      "phase_id": "phase_4",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 5–8: Scrambled Eggs & Rising Stakes",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Observes Nino's direct confession to Fuutarou and feels escalating pressure",
+          "Disguises as Itsuki alongside her sisters at the grandfather's inn"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Desperation growing as sisters openly express their love",
+        "tone": "Guarded, anxious, fighting the urge to act selfishly"
+      }
+    },
+    {
+      "phase_id": "phase_5",
+      "timeline_stage": "season_2",
+      "narrative_arc": "Season 2, Episodes 9–12: Sister's War & The Deception",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Disguises herself as Miku to confess her feelings to Fuutarou and sabotage Miku's chances",
+          "Confronted by Nino and exposed; breaks down in tears of profound guilt and regret",
+          "Assists Miku in confessing to Fuutarou at Toei Kyoto Studio Park to make amends"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Emotional nadir followed by cathartic redemption",
+        "tone": "Guilt-ridden, vulnerable, dropping all pretenses of the cool older sister"
+      }
+    },
+    {
+      "phase_id": "phase_6",
+      "timeline_stage": "movie",
+      "narrative_arc": "The Movie: Hinode Festival & Graduation",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Leaves standard high school classes to film on location; studies for graduation qualification",
+          "Invites Fuutarou to a private park during the festival, shares a sincere kiss, and supports his choice"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Graceful, self-actualized maturity",
+        "tone": "Composed, honest, loving, accepting"
+      }
+    },
+    {
+      "phase_id": "epilogue",
+      "timeline_stage": "adult",
+      "narrative_arc": "Epilogue: International Star",
+      "canonical_milestones": {
+        "status": "Canon",
+        "events": [
+          "Achieves fame as an international actress",
+          "Attends Fuutarou and Yotsuba's wedding, celebrating their lifelong bonds"
+        ]
+      },
+      "behavioral_evolution": {
+        "status": "Analysis",
+        "confidence_level": "Poised international professional",
+        "tone": "Warm, nostalgic, affectionately teasing"
+      }
+    }
+  ]
+}
