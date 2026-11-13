@@ -94,7 +94,17 @@ Like a real person, she **reads, writes, rereads, fixes and then sends**. That i
 > Full step-by-step guide with pictures: **`Documentation\TQQ Chatbox - Setup Guide.pptx`**
 
 1. **Install** [Ollama](https://ollama.com) (0.40 or newer).
-2. **Load the five sister models** (once). Open a terminal **inside `Ryuu_v1 models\`** and create each one from the Modelfile next to it:
+2. **Get the five sisters** from Hugging Face (8.5 GB each; they're too big for GitHub):
+
+   | Sister | Model page |
+   |---|---|
+   | Ichika | [Adithya210207-Ryuu/Ichika_ryuu_v1-GGUF](https://huggingface.co/Adithya210207-Ryuu/Ichika_ryuu_v1-GGUF) |
+   | Nino | [Adithya210207-Ryuu/Nino_ryuu_v1-GGUF](https://huggingface.co/Adithya210207-Ryuu/Nino_ryuu_v1-GGUF) |
+   | Miku | [Adithya210207-Ryuu/Miku_ryuu_v1-GGUF](https://huggingface.co/Adithya210207-Ryuu/Miku_ryuu_v1-GGUF) |
+   | Yotsuba | [Adithya210207-Ryuu/Yotsuba_ryuu_v1-GGUF](https://huggingface.co/Adithya210207-Ryuu/Yotsuba_ryuu_v1-GGUF) |
+   | Itsuki | [Adithya210207-Ryuu/Itsuki_ryuu_v1-GGUF](https://huggingface.co/Adithya210207-Ryuu/Itsuki_ryuu_v1-GGUF) |
+
+   Put each `.gguf` into `Ryuu_v1 models\` and, from a terminal inside that folder, create it with the Modelfile next to it:
    ```bash
    ollama create Ichika_ryuu_v1 -f Modelfile_Ichika
    ollama create Nino_ryuu_v1 -f Modelfile_Nino
@@ -103,11 +113,13 @@ Like a real person, she **reads, writes, rereads, fixes and then sends**. That i
    ollama create Itsuki_ryuu_v1 -f Modelfile_Itsuki
    ```
    Each Modelfile holds that sister's chat template, settings and training prompt.
-3. **Load the judge model** (version 2 only), from `Judge model\`:
+3. **Get the judge model** (version 2 only):
    ```bash
-   ollama create phi4-mini -f Modelfile
+   ollama pull phi4-mini
    ```
-4. **Open the app**: double-click `TQQ Chatbox v2.lnk` in the version 2 folder.
+4. **Open the app.**
+   - *From a release folder:* double-click `TQQ Chatbox v2.lnk` in the version 2 folder.
+   - *From this GitHub repo:* install the Java 26 JDK, download the [JavaFX SDK 26.0.1](https://gluonhq.com/products/javafx/) into `TQQ Chat App\TTQ Chatboc app version 2\lib\javafx-sdk-26.0.1\`, then double-click `run.bat` there (it builds the app the first time).
 5. Wait for **"TQQ_CB ready"**, click a sister, and say hi. 🌸
 
 > 💡 Keep the `TQQ Chatbox v2` folder where it is: the exe reads its pictures (`assets\`) and chats (`history\`) from the folder around it.

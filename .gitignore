@@ -36,3 +36,6 @@ __pycache__/
 
 # ── Office lock files ─────────────────────────────────────────────────────────
 ~$*
+
+# ── Hugging Face upload cache (the .gguf hard links are already ignored above) ──
+HuggingFace/**/.cache/
